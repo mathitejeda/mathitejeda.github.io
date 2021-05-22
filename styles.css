@@ -1,0 +1,70 @@
+:root {
+  font-size: 16px;
+  font-family: "Noto Sans JP", sans-serif;
+  --text-primary: #cdc7be;
+  --text-secondary: #e6c072;
+  --bg-primary: #433551;
+  --bg-secondary: #9054a5;
+}
+
+body {
+  background-color: var(--bg-primary);
+  color: var(--text-primary);
+  font-size: 18px;
+}
+
+body::-webkit-scrollbar {
+  width: 0.25rem;
+}
+
+body::-webkit-scrollbar-track {
+  background: black;
+}
+
+body::-webkit-scrollbar-thumb {
+  background: #e6c072;
+}
+
+h1 {
+  font-size: 4vw;
+  text-align: center;
+  color: white;
+  margin: auto;
+}
+
+a {
+  color: var(--text-secondary);
+  text-decoration: none;
+}
+
+.paginaEntrada {
+  width: 100%;
+  color: var(--text-secondary);
+  height: 100vh;
+}
+th, td{
+    text-align: center;
+    padding: 20px;
+}
+
+#mathi {
+  max-width: 100%;
+  max-height: 80vh;
+  display: block;
+  align-content: center;
+  margin: auto;
+}
+
+#t2{
+    font-weight: 400;
+}
+
+footer{
+    border-top: 1px solid var(--text-secondary);
+}
+
+table{
+    margin-left: auto;
+    margin-right: auto;
+    width: 25%;
+}
