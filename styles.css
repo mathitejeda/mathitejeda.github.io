@@ -31,7 +31,10 @@ h1 {
   color: white;
   margin: auto;
 }
-
+h2{
+  text-align: center;
+  margin: auto;
+}
 a {
   color: var(--text-secondary);
   text-decoration: none;
@@ -41,10 +44,31 @@ a {
   width: 100%;
   color: var(--text-secondary);
   height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 th, td{
     text-align: center;
     padding: 20px;
+}
+hr{
+  border: 1px solid var(--text-secondary);
+}
+
+footer{
+    border-top: 1px solid var(--text-secondary);
+}
+
+table{
+    margin-left: auto;
+    margin-right: auto;
+    width: 25%;
+}
+
+ul{
+  list-style: none;
 }
 
 #mathi {
@@ -59,12 +83,14 @@ th, td{
     font-weight: 400;
 }
 
-footer{
-    border-top: 1px solid var(--text-secondary);
-}
 
-table{
-    margin-left: auto;
-    margin-right: auto;
-    width: 25%;
+
+.tabla-conocimientos{
+  padding: 2%;
+  display: flex;
+  flex-flow: row wrap;
+  font-size: 1.75rem;
+  align-items: center;
+  justify-content: space-evenly;
+  gap: 5px 10px;
 }
